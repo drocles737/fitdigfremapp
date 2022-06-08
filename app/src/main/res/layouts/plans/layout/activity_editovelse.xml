@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/green"
+    >
+
+    <TextView
+        android:id="@+id/planNavn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:text="Øvelsenavn placeholder"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Øvelseliste"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <EditText
+        android:layout_marginTop="15sp"
+        android:layout_width="190dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/buttonbordersdrawable"
+        android:backgroundTint="@color/white"
+        android:gravity="start"
+        android:inputType="text"
+        android:hint="Valgfrit..."
+        />
+
+    <Button
+        android:id="@+id/btnSlet"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/buttonbordersdrawable"
+        android:text="Slet"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:backgroundTint="@android:color/holo_red_dark"
+        tools:ignore="TouchTargetSizeCheck"
+        />
+
+    <Button
+        android:id="@+id/btnOpdater"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="-85dp"
+        android:background="@drawable/buttonbordersdrawable"
+        android:text="Opdater"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="12sp"
+        app:backgroundTint="#E6E8E3"
+        tools:ignore="TouchTargetSizeCheck"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/BrugerIdvis"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="90dp"-->
+<!--        android:elevation="1dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp" />-->
+
+    <ListView
+        android:id="@+id/ovPlanlist"
+        android:layout_width="300dp"
+        android:layout_height="290dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:divider="@color/green"
+        android:dividerHeight="14dp"/>
+
+
+    <Button
+        android:id="@+id/btntilfoj"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:text="+"
+        android:background="@drawable/buttonbordersdrawable"
+        app:backgroundTint="@android:color/darker_gray"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+
+    <Button
+        android:id="@+id/btnanuller"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttonbordersdrawable"
+        android:text="Anuller "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="#E6E8E3"
+        tools:ignore="TouchTargetSizeCheck"/>
+
+    <Button
+        android:id="@+id/btnGem"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/buttonbordersdrawable"
+        android:text="Gem"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="#E6E8E3"
+        tools:ignore="TouchTargetSizeCheck"
+        />
+
+</LinearLayout>

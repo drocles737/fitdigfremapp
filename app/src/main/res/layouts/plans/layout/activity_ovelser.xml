@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/green"
+    >
+    <TextView
+        android:id="@+id/planNavn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:text="Øvelsenavn placeholder"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:text="Øvelser"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        />
+
+    <ListView
+        android:id="@+id/brugerOvPlan"
+        android:layout_width="300dp"
+        android:layout_height="468dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/transparent"
+        android:divider="@color/green"
+        android:dividerHeight="14dp"/>
+
+    <Button
+        android:id="@+id/btnfordigOvelse"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/buttonbordersdrawable"
+        android:text="Gennemfør"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:backgroundTint="#E6E8E3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>
+
+
+
+
+<!--    android:text="@String/plannavn"-->

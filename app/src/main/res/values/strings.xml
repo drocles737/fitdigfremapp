@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Fit Dig Frem</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="step_one">Velkommen til Fit dig Frem. \n\nDin start til et sundt motionsliv.\n\nHer vil vi give en lille introduktion til appens funktioner, så vi kan hjælpe dig igang med et sundere liv.\n\nHvis du ikke ønsker at se introduktionen, kan du trykke på krydset (X) øverst i højre hjørne.\n\nHvis du vil fortsætte så tryk da på pilen.</string>
+    <string name="step_two">\n\nNederst kan du trykke på knappen \'\Træningsplaner\'\. \n\nDet er Fit dig Frems egne træningsplaner, som alle har adgang til.\n\nDet er en rigtig god start for nybegyndere, der mangler at komme igang, indtil i har fået en rigtig god forståelse for at træne. </string>
+    <string name="step_three"> \n\nØverst i venstre hjørne er der en ekstra menu.\n\nHer har du mulighed for at registrere dig.\n\nEfter registrering kan du logge ind.</string>
+    <string name="step_four">\n\nHvis du har erfaring med træning og bare vil i gang..\n\nSå lad os fortælle dig om vores Fit dig Frem medlemsskab.\n\nDet er ganske gratis og når du har registeret dig, kan du med det samme lave dine helt egne træningsplaner, som du kan følge og ændre hvis nødvendigt.\n\n Vi ønsker jer alle en god træning.</string>
+
+    <string name="user_menu_1">Her kan du personliggøre dine træningsplaner.\n</string>
+    <string name="user_menu_2">Vil du ændre din email eller password kan du gøre det under: Kontoindstillinger.</string>
+    <string name="træningsplaner">Dine træningsplaner</string>
+    <string name="preplaner">Fit dig Frem træningsplaner</string>
+    <string name="konto">Kontoindstillinger</string>
+    <string name="logud">Log ud</string>
+    <string name="updatePass">Ændre Password</string>
+    <string name="updateEmail">Opdater Email</string>
+    <string name="userMenu">Brugermenu</string>
+
+    <string name="curr_pw">Nuværende password *</string>
+    <string name="new_pw">Nyt password *</string>
+    <string name="chg">Skift</string>
+    <string name="cancel_btn">Annuller</string>
+    <string name="chg_email">Ændre Email</string>
+    <string name="chg_pw">Ændre password</string>
+    <string name="curr_email">Nuværende email *</string>
+    <string name="new_email">Ny email *</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
